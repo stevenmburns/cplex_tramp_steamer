@@ -1,0 +1,6 @@
+20> egrep Solution LOG*
+LOG_linear_11299t_0nt_9998:Solution time =  381.81 sec.  Iterations = 377325 (0)
+LOG_linear_412t_139nt_299:Solution time =    1.03 sec.  Iterations = 9202 (0)
+LOG_linear_6119t_0nt_2500:Solution time =   36.89 sec.  Iterations = 150616 (0)
+LOG_linear_80t_100nt_247:Solution time =    0.64 sec.  Iterations = 5253 (0)
+LOG_ring_100_20:Solution time =    0.03 sec.  Iterations = 793 (0)

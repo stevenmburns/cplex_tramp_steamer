@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for lp in linear_412t_139nt_299 linear_6119t_0nt_2500 linear_80t_100nt_247 ring_100_20
+#for lp in linear_11299t_0nt_9998 linear_412t_139nt_299 linear_6119t_0nt_2500 linear_80t_100nt_247 ring_100_20
+
+for lp in linear_11299t_0nt_9998
 do
 
 /nfs/site/proj/dt/pdx_sde02/x86-64_linux26/cplex/12.2/cplex/bin/x86_sles10_4.1/cplex << EOF | tee LOG_$lp
