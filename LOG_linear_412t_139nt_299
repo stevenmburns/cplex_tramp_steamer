@@ -1,0 +1,57 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.2.0.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+Copyright IBM Corp. 1988, 2010.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem 'linear_412t_139nt_299.lp' read.
+Read time =    0.06 sec.
+CPLEX> Tried aggregator 1 time.
+LP Presolve eliminated 5558 rows and 0 columns.
+Aggregator did 9920 substitutions.
+Reduced LP has 43382 rows, 17719 columns, and 104712 nonzeros.
+Presolve time =    0.18 sec.
+Extracted network with 11933 nodes and 26302 arcs, including slacks.
+Extraction time =    0.01 sec.
+Iteration log . . .
+Iteration:     0   Infeasibility     =        690969.702000 (690970)
+Iteration: 10000   Infeasibility     =         97277.236900 (97277.2)
+
+Network - Optimal:  Objective =    0.0000000000e+00
+Network time =    0.02 sec.  Iterations = 11934 (11934)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:   203   Dual objective     =           285.455800
+Iteration:   768   Dual objective     =          4258.230531
+Iteration:  1011   Dual objective     =          4258.828259
+Iteration:  1206   Dual objective     =          4259.231086
+Iteration:  1401   Dual objective     =          4259.641254
+Iteration:  1647   Dual objective     =          4260.000707
+Iteration:  1873   Dual objective     =          4260.307748
+Iteration:  2111   Dual objective     =          4260.641017
+Iteration:  2365   Dual objective     =          4260.889590
+Iteration:  2621   Dual objective     =          4261.260446
+Iteration:  3015   Dual objective     =          4261.843158
+Iteration:  3358   Dual objective     =          4262.344691
+Iteration:  3624   Dual objective     =         14625.707768
+Iteration:  3971   Dual objective     =         20440.501980
+Iteration:  4872   Dual objective     =         20440.672542
+Iteration:  5230   Dual objective     =         21743.063020
+Iteration:  6098   Dual objective     =         21743.735425
+Iteration:  6596   Dual objective     =         21743.878156
+Iteration:  7283   Dual objective     =         22087.241088
+Iteration:  7853   Dual objective     =         22087.284885
+Iteration:  8193   Dual objective     =         22361.437415
+Iteration:  8325   Dual objective     =         22361.443952
+Removing perturbation.
+
+Dual simplex - Optimal:  Objective =  2.2342824400e+04
+Solution time =    1.03 sec.  Iterations = 9202 (0)
+
+CPLEX> 

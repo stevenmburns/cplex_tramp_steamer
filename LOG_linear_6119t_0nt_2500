@@ -1,0 +1,143 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.2.0.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+Copyright IBM Corp. 1988, 2010.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem 'linear_6119t_0nt_2500.lp' read.
+Read time =    0.59 sec.
+CPLEX> Aggregator has done 109448 substitutions...
+Presolve time =    5.98 sec.
+Insufficient memory for presolve.
+Extracted network with 230782 nodes and 511075 arcs, including slacks.
+Extraction time =    0.14 sec.
+Iteration log . . .
+Iteration:     0   Infeasibility     =       9725045.845997 (9.72505e+06)
+Iteration: 10000   Infeasibility     =       8979485.122796 (8.97949e+06)
+Iteration: 20000   Infeasibility     =       8296903.283395 (8.2969e+06)
+Iteration: 30000   Infeasibility     =       7641105.789796 (7.64111e+06)
+Iteration: 40000   Infeasibility     =       7014171.467997 (7.01417e+06)
+Iteration: 50000   Infeasibility     =       6405897.534798 (6.4059e+06)
+Iteration: 60000   Infeasibility     =       5806805.550198 (5.80681e+06)
+Iteration: 70000   Infeasibility     =       5209796.332199 (5.2098e+06)
+Iteration: 80000   Infeasibility     =       4610628.169199 (4.61063e+06)
+Elapsed time =    0.32
+Iteration: 90000   Infeasibility     =       4030706.019999 (4.03071e+06)
+Iteration:100000   Infeasibility     =       3488029.084399 (3.48803e+06)
+Iteration:110000   Infeasibility     =       3039520.907800 (3.03952e+06)
+Iteration:120000   Infeasibility     =       2920454.695400 (2.92045e+06)
+Iteration:130000   Infeasibility     =       2865947.087900 (2.86595e+06)
+Iteration:140000   Infeasibility     =       2821811.094600 (2.82181e+06)
+Iteration:150000   Infeasibility     =       2784912.210800 (2.78491e+06)
+Iteration:160000   Infeasibility     =       2736239.043400 (2.73624e+06)
+Iteration:170000   Infeasibility     =       2566760.830300 (2.56676e+06)
+Iteration:180000   Infeasibility     =       2204564.824000 (2.20456e+06)
+Elapsed time =    0.61
+Iteration:190000   Infeasibility     =       1782913.540400 (1.78291e+06)
+Iteration:200000   Infeasibility     =       1350343.972400 (1.35034e+06)
+Iteration:210000   Infeasibility     =        911410.445200 (911410)
+Iteration:220000   Infeasibility     =        472529.587800 (472530)
+Iteration:230000   Infeasibility     =         33770.249100 (33770.2)
+
+Network - Optimal:  Objective =    0.0000000000e+00
+Network time =    0.77 sec.  Iterations = 230786 (230786)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:   203   Dual objective     =           360.967700
+Iteration:  2589   Dual objective     =           361.213521
+Iteration:  4418   Dual objective     =           361.415351
+Iteration:  6585   Dual objective     =           361.679185
+Elapsed time =   10.51 sec. (7000 iterations).
+Iteration:  8869   Dual objective     =           361.869321
+Iteration: 11386   Dual objective     =           362.540748
+Iteration: 13618   Dual objective     =          1307.235596
+Iteration: 16110   Dual objective     =          1307.589227
+Iteration: 18581   Dual objective     =          1308.728102
+Iteration: 21043   Dual objective     =          1308.969448
+Iteration: 22903   Dual objective     =          1310.401189
+Iteration: 25344   Dual objective     =          1310.665696
+Iteration: 27495   Dual objective     =          1310.937440
+Iteration: 29694   Dual objective     =          1311.477248
+Iteration: 32096   Dual objective     =          1312.031569
+Iteration: 34500   Dual objective     =          1312.180699
+Iteration: 36882   Dual objective     =          1312.475629
+Iteration: 39240   Dual objective     =          1312.763287
+Iteration: 41574   Dual objective     =          1313.034258
+Iteration: 43884   Dual objective     =          1313.763336
+Iteration: 46186   Dual objective     =          1314.366983
+Iteration: 48195   Dual objective     =          1314.903359
+Iteration: 50276   Dual objective     =          1315.285427
+Iteration: 52540   Dual objective     =          1315.541388
+Iteration: 54810   Dual objective     =          1315.680460
+Iteration: 57063   Dual objective     =          1316.454666
+Iteration: 59312   Dual objective     =          1317.153203
+Iteration: 61508   Dual objective     =          1317.951311
+Iteration: 63710   Dual objective     =          1318.767699
+Iteration: 65900   Dual objective     =          1319.839127
+Iteration: 68089   Dual objective     =          1320.308651
+Iteration: 70298   Dual objective     =          1320.594115
+Iteration: 72444   Dual objective     =          1321.522300
+Iteration: 74626   Dual objective     =          1322.479800
+Iteration: 76765   Dual objective     =          1322.991629
+Iteration: 78921   Dual objective     =          1323.490896
+Iteration: 81069   Dual objective     =          1324.380335
+Iteration: 83107   Dual objective     =          1325.408590
+Elapsed time =   20.64 sec. (84000 iterations).
+Iteration: 85235   Dual objective     =          1326.507912
+Iteration: 87360   Dual objective     =          1326.925654
+Iteration: 89438   Dual objective     =          1327.909069
+Iteration: 91545   Dual objective     =          1328.422493
+Iteration: 93627   Dual objective     =          1329.344563
+Iteration: 95535   Dual objective     =          1329.999037
+Iteration: 97311   Dual objective     =          1330.957855
+Iteration: 99128   Dual objective     =          1331.763061
+Iteration: 100817   Dual objective     =          1332.701560
+Iteration: 102468   Dual objective     =          1333.605344
+Iteration: 104195   Dual objective     =          1334.270011
+Iteration: 105970   Dual objective     =          1335.010953
+Iteration: 107659   Dual objective     =          1335.640689
+Iteration: 109530   Dual objective     =          1336.120496
+Iteration: 111128   Dual objective     =          1336.637783
+Iteration: 112666   Dual objective     =          1337.250559
+Iteration: 114191   Dual objective     =          1337.651346
+Iteration: 115760   Dual objective     =          1338.136147
+Iteration: 117212   Dual objective     =          1338.677170
+Iteration: 118674   Dual objective     =          1339.010632
+Iteration: 120264   Dual objective     =          1339.392930
+Iteration: 121573   Dual objective     =          1339.835199
+Iteration: 122862   Dual objective     =          1340.169883
+Iteration: 124013   Dual objective     =          1346.195562
+Iteration: 125315   Dual objective     =          1346.571462
+Iteration: 126155   Dual objective     =          1346.861557
+Iteration: 127288   Dual objective     =          1347.137386
+Iteration: 128983   Dual objective     =          1347.294689
+Iteration: 130323   Dual objective     =          1347.387998
+Elapsed time =   30.96 sec. (131000 iterations).
+Iteration: 131474   Dual objective     =          1347.678288
+Iteration: 132223   Dual objective     =          1350.514694
+Iteration: 133260   Dual objective     =          1350.618997
+Iteration: 134383   Dual objective     =          1356.215350
+Iteration: 135326   Dual objective     =          1357.731499
+Iteration: 136934   Dual objective     =          1359.961395
+Iteration: 137872   Dual objective     =          1363.485274
+Iteration: 139073   Dual objective     =          1365.061849
+Iteration: 140352   Dual objective     =          1366.420743
+Iteration: 141368   Dual objective     =          1367.005717
+Iteration: 142256   Dual objective     =          1367.933545
+Iteration: 143219   Dual objective     =          1368.848019
+Iteration: 145180   Dual objective     =          1368.860156
+Iteration: 147049   Dual objective     =          1368.862534
+Iteration: 148999   Dual objective     =          1368.863331
+Iteration: 150340   Dual objective     =          1368.874020
+Removing perturbation.
+
+Dual simplex - Optimal:  Objective =  1.3354174000e+03
+Solution time =   36.89 sec.  Iterations = 150616 (0)
+
+CPLEX> 

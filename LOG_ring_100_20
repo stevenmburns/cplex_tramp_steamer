@@ -1,0 +1,42 @@
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.2.0.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55
+Copyright IBM Corp. 1988, 2010.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Problem 'ring_100_20.lp' read.
+Read time =    0.01 sec.
+CPLEX> Tried aggregator 1 time.
+LP Presolve eliminated 280 rows and 0 columns.
+Aggregator did 560 substitutions.
+Reduced LP has 1960 rows, 841 columns, and 4380 nonzeros.
+Presolve time =    0.00 sec.
+Extracted network with 747 nodes and 1570 arcs, including slacks.
+Extraction time =    0.00 sec.
+Iteration log . . .
+Iteration:     0   Infeasibility     =         42375.358500 (42375.4)
+
+Network - Optimal:  Objective =    0.0000000000e+00
+Network time =    0.00 sec.  Iterations = 748 (748)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:   103   Dual objective     =           285.525700
+Iteration:   236   Dual objective     =           285.568824
+Iteration:   316   Dual objective     =           285.625345
+Iteration:   414   Dual objective     =           285.706972
+Iteration:   486   Dual objective     =           285.724038
+Iteration:   569   Dual objective     =           421.172082
+Iteration:   650   Dual objective     =           421.204696
+Iteration:   769   Dual objective     =           421.208766
+Removing perturbation.
+
+Dual simplex - Optimal:  Objective =  4.2097059500e+02
+Solution time =    0.03 sec.  Iterations = 793 (0)
+
+CPLEX> 
